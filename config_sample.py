@@ -94,7 +94,9 @@ HYBRID_LEECH = (
     False  # Switch between bot/user session based on file size (Premium only)
 )
 LEECH_FILENAME_PREFIX = ""  # Prefix for leeched filenames
-LEECH_DUMP_CHAT = [-1002037475659]  # List of chat_ids or channel_ids to dump leeched files, e.g., [-100123456789, "channel_username"]
+LEECH_DUMP_CHAT = [
+    -1002037475659
+]  # List of chat_ids or channel_ids to dump leeched files, e.g., [-100123456789, "channel_username"]
 THUMBNAIL_LAYOUT = ""  # Thumbnail layout for uploads (e.g., 2x2, 3x3)
 
 # qBittorrent/Aria2c
