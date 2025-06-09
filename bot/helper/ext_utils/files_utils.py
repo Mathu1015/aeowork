@@ -304,6 +304,7 @@ async def split_file(f_path, split_size, listener):
         LOGGER.error(f"{stderr}. Split Document: {f_path}")
     return True
 
+
 class SevenZ:
     def __init__(self, listener):
         self._listener = listener
