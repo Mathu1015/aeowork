@@ -1,53 +1,53 @@
 # REQUIRED CONFIG
-BOT_TOKEN = ""
-OWNER_ID = 0
-TELEGRAM_API = 0
-TELEGRAM_HASH = ""
+BOT_TOKEN = "7962125193:AAER_3T_n0vL8e6yzvOxJk1rbUNqw-ebcyE"
+OWNER_ID = 5387108114
+TELEGRAM_API = 26257599
+TELEGRAM_HASH = "cbdf90a6844992b76e143656f6e07562"
 
 # Recommended for persisting settings, RSS feeds, and task history. Essential for some features.
-DATABASE_URL = ""
+DATABASE_URL = "mongodb+srv://Leyon15:Leyon15@cluster0.kzfajap.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 # OPTIONAL CONFIG
 TG_PROXY = {}  # Example: {"scheme": "socks5", "hostname": "11.22.33.44", "port": 1234, "username": "user", "password": "pass"}
 USER_SESSION_STRING = ""
 CMD_SUFFIX = ""  # Suffix to add to all bot commands
-AUTHORIZED_CHATS = ""  # Space separated chat_id/user_id to authorize
-SUDO_USERS = ""  # Space separated user_id for sudo access
-DEFAULT_UPLOAD = ""  # Default uploader if -ul is not specified. Options: "yt" (YouTube), "gd" (Google Drive), "rc" (Rclone), or "" (empty for no specific default).
+AUTHORIZED_CHATS = "-1002199661791"  # Space separated chat_id/user_id to authorize
+SUDO_USERS = "5387108114"  # Space separated user_id for sudo access
+DEFAULT_UPLOAD = "gd"  # Default uploader if -ul is not specified. Options: "yt" (YouTube), "gd" (Google Drive), "rc" (Rclone), or "" (empty for no specific default).
 FILELION_API = ""
 STREAMWISH_API = ""
 EXCLUDED_EXTENSIONS = (
     ""  # Space separated file extensions to exclude (e.g., .log .exe)
 )
 INCOMPLETE_TASK_NOTIFIER = (
-    False  # Notify for incomplete tasks on restart (requires DATABASE_URL)
+    True  # Notify for incomplete tasks on restart (requires DATABASE_URL)
 )
 YT_DLP_OPTIONS = {}  # Dictionary of yt-dlp options, e.g., {"format": "bestvideo+bestaudio/best"}
-USE_SERVICE_ACCOUNTS = False
+USE_SERVICE_ACCOUNTS = True
 NAME_SUBSTITUTE = ""  # Replace/remove words: "source1/target1|source2/target2"
 FFMPEG_CMDS = {}  # Predefined FFmpeg commands, e.g., {"preset_name": ["-vf", "scale=1280:-1"]}
 UPLOAD_PATHS = {}  # Named upload paths, e.g., {"movies": "remote:movies/", "tv": "gdrive_id_tv_folder"}
 
 # Aeon-MLTB Specific Features / Customizations
 DELETE_LINKS = False  # Auto-delete links after a certain period or action
-FSUB_IDS = ""  # Forced subscription channel IDs (comma-separated)
+FSUB_IDS = "-1002064389813"  # Forced subscription channel IDs (comma-separated)
 TOKEN_TIMEOUT = 0  # Timeout in seconds for user tokens (0 for no timeout)
-PAID_CHANNEL_ID = 0  # Channel ID users must join to bypass token
+PAID_CHANNEL_ID = -1002228999442  # Channel ID users must join to bypass token
 PAID_CHANNEL_LINK = ""  # Invite link for the paid channel
 SET_COMMANDS = True  # Register bot commands with BotFather on startup
-METADATA_KEY = ""  # Key for tagging/fetching metadata
+METADATA_KEY = "LeyonRipz"  # Key for tagging/fetching metadata
 WATERMARK_KEY = ""  # Key for watermarking files
-LOG_CHAT_ID = 0  # Chat ID for sending leech logs
+LOG_CHAT_ID = -1002037475659  # Chat ID for sending leech logs
 LEECH_FILENAME_CAPTION = ""  # Template caption for leeched files
 HYDRA_IP = ""  # IP of NZBHydra2 instance
 HYDRA_API_KEY = ""  # API key for NZBHydra2
 INSTADL_API = ""  # URL/endpoint for InstaDL API
 
 # GDrive Tools
-GDRIVE_ID = ""  # Default Google Drive Folder/TeamDrive ID or "root"
+GDRIVE_ID = "1ItYjvNXnf32lPFhSOcE-o7Bu8rnq28H0"  # Default Google Drive Folder/TeamDrive ID or "root"
 IS_TEAM_DRIVE = False  # Set True if GDRIVE_ID is a TeamDrive
 STOP_DUPLICATE = False  # Check for duplicate file/folder names before uploading
-INDEX_URL = ""  # Index URL for the GDrive_ID
+INDEX_URL = "https://leyonmirror.msrockersleyon.workers.dev/0:"  # Index URL for the GDrive_ID
 
 # Rclone
 RCLONE_PATH = ""  # Default Rclone upload path (e.g., myremote:path)
@@ -81,7 +81,7 @@ USENET_SERVERS = [  # List of Usenet server configurations
 
 # Update
 UPSTREAM_REPO = (
-    "https://github.com/AeonOrg/Aeon-MLTB"  # Upstream repository for updates
+    "https://github.com/Mathu1015/aeowork"  # Upstream repository for updates
 )
 UPSTREAM_BRANCH = "main"  # Default branch for updates
 
@@ -94,7 +94,7 @@ HYBRID_LEECH = (
     False  # Switch between bot/user session based on file size (Premium only)
 )
 LEECH_FILENAME_PREFIX = ""  # Prefix for leeched filenames
-LEECH_DUMP_CHAT = []  # List of chat_ids or channel_ids to dump leeched files, e.g., [-100123456789, "channel_username"]
+LEECH_DUMP_CHAT = [-1002037475659]  # List of chat_ids or channel_ids to dump leeched files, e.g., [-100123456789, "channel_username"]
 THUMBNAIL_LAYOUT = ""  # Thumbnail layout for uploads (e.g., 2x2, 3x3)
 
 # qBittorrent/Aria2c
